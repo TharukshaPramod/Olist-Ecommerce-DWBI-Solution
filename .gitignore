@@ -1,0 +1,35 @@
+# ------------------------------------------------------------
+# Visual Studio / SSDT local files
+# ------------------------------------------------------------
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ------------------------------------------------------------
+# Build outputs (SSIS / SSAS)
+# ------------------------------------------------------------
+**/bin/
+**/obj/
+*.ispac
+*.asdatabase
+*.deploymentoptions
+*.deploymenttargets
+*.configsettings
+*BuildLog.xml
+*LastBuilt.xml
+
+# ------------------------------------------------------------
+# Local database backups and heavy binaries
+# ------------------------------------------------------------
+DataWarehouse_IT23323452/OlistDW.bak
+PowerBIReports_IT3323452/*.pbix
+
+# ------------------------------------------------------------
+# Local report/support artifacts not intended for GitHub
+# ------------------------------------------------------------
+Document_IT23323452/
+SS/
+IT23323452_DWBI_EXEL.xlsx
+Olist ER digram.png
